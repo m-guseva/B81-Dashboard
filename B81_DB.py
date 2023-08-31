@@ -41,7 +41,7 @@ with col1:
 col2.subheader("Sweat points 💦")
 col2.metric("Recent", recent_sweatPoints, str(delta_sweatPoints))
 col2.metric("Average", data['Sweat points'].mean().round(2))
-col2.write("🏅 Best day: " + data.loc[data['Sweat points'].idxmax()]['Date']+ " with " + str(** data['Sweat points'].max()**) + " Sweat points")
+col2.write("🏅 Best day: " + data.loc[data['Sweat points'].idxmax()]['Date']+ " with " + str(data['Sweat points'].max()) + " Sweat points")
 col2.write("Total number  of workouts: " + str(len(data)))
 
 col3.subheader("Recovery points 🧘🏻‍♀️")
