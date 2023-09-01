@@ -3,7 +3,7 @@ This code creates a dashboard for tracking your [BEAT81](https://www.beat81.com)
 Additionally, this dashboard also helps you to spot any seasonal or cyclical patterns in the points by showing the autocorrelations in the data. New features will be added.
 
 
-[<img src="https://github.com/m-guseva/B81-Dashboard/assets/63409978/f6b94103-8940-4efc-94d0-29434fb70f67" width="500"/>](image.png)
+[<img src="https://github.com/m-guseva/B81-Dashboard/assets/63409978/3068baeb-cf1e-4826-90aa-8fe4f3524bb2" width="500"/>](image.png)
 
 
 ## Prerequisites
