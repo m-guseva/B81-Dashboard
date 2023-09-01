@@ -1,8 +1,8 @@
 # B81-Dashboard
-This code creates a dashboard of  [BEAT81](https://www.beat81.com) workout results. It shows the sweat and recovery points for each workout over time for those who are interested. New features will be added.
+This code creates a dashboard of  [BEAT81](https://www.beat81.com) workout results. It shows the sweat and recovery points for each workout over time for those who wish to track their results. New features will be added.
 
-[<img src="https://github.com/m-guseva/B81-Dashboard/assets/63409978/d5b60126-f5c9-4860-b9a8-181611446c99" width="500"/>](image.png)
-[<img src="https://github.com/m-guseva/B81-Dashboard/assets/63409978/e8c32144-ae5d-40e4-96bd-0b16a5d838c8" width="500"/>](image.png)
+[<img src="https://github.com/m-guseva/B81-Dashboard/assets/63409978/7c9b9a45-50e0-40d3-b57c-55c8c48d2450" width="500"/>](image.png)
+
 
 ## Prerequisites
 - The code is using [Python 3.10](https://www.python.org/downloads/). For this code to run the packages listed in the requirements.txt file need to be installed. If you are new to python, see below for a brief description "how to install packages" from the requirements.txt file.
