@@ -1,7 +1,9 @@
 # B81-Dashboard
-This code creates a dashboard of  [BEAT81](https://www.beat81.com) workout results. It shows the sweat and recovery points for each workout over time for those who wish to track their results. New features will be added.
+This code creates a dashboard for tracking your [BEAT81](https://www.beat81.com) workout results. It shows the sweat and recovery points for each workout over time and across each workout type.
+Additionally, this dashboard also helps you to spot any seasonal or cyclical patterns in the points by showing the autocorrelations in the data. New features will be added.
 
-[<img src="https://github.com/m-guseva/B81-Dashboard/assets/63409978/7c9b9a45-50e0-40d3-b57c-55c8c48d2450" width="500"/>](image.png)
+
+[<img src="https://github.com/m-guseva/B81-Dashboard/assets/63409978/f6b94103-8940-4efc-94d0-29434fb70f67" width="500"/>](image.png)
 
 
 ## Prerequisites
