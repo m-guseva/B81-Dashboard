@@ -87,8 +87,9 @@ elif radio_stats == 'Count':
 st.write("---")
 ################################################################################################################
 # Autocorrelation plots
+
 # Create subplots
-st.header("Autocorrelations")
+st.header("For time series enthusiasts: Autocorrelations 📈")
 fig, axes = plt.subplots(1, 2, figsize=(8, 4))  # 1 row, 2 columns
 
 # Plot autocorrelation for 'Sweat points'
@@ -103,7 +104,16 @@ axes[1].set_title("Recovery Points")
 axes[1].set_xlabel("Lags")
 axes[1].set_ylabel("Autocorrelation")
 
-col1, col2 , col3= st.columns([2,2,2])
-col1.pyplot(fig)
+col1, col2 = st.columns([1,2])
 
+with col1:
+    st.write("Calculates the autocorrelation of sweat and recovery points for different lags. "
+         + "It shows whether there are seasonal or cyclical patterns in the data. "
+         + "For example, it can show whether the menstrual cycle periodically affects your recovery points 💁🏻‍♀️.  "
+         + "Or whether the winter blues have an effect on your sweat points ❄️. ")
+
+    st.write("Data points contained in  blue area are not significant. "
+           +"Read more about autocorrelations [here](https://en.wikipedia.org/wiki/Autocorrelation).")
+    
+col2.pyplot(fig)
 
